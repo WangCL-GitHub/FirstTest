@@ -8,7 +8,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (nonatomic, strong)NSString *str1;
+@property (nonatomic, strong)NSString *str1;//字符串
+
+
 
 @end
 
