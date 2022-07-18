@@ -86,6 +86,7 @@
 				DF2B3E01288411540030F7F9 /* Sources */,
 				DF2B3E02288411540030F7F9 /* Frameworks */,
 				DF2B3E03288411540030F7F9 /* Resources */,
+				DF2B3E21288504130030F7F9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -140,6 +141,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF2B3E21288504130030F7F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}\nchmod u+x ./format-check.sh\nsh format-check.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF2B3E01288411540030F7F9 /* Sources */ = {
